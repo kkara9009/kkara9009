@@ -19,8 +19,6 @@
 
 
 ## Screenshots
-![alt text](https://github.com/kkara9009/Portfolio/blob/main/public/assets/images/projects/devProjects/portfolio.png "Portfolio Preview image")
-
 ![Alt Text](https://media.giphy.com/media/C1GmLruAzdoE3LcF07/giphy.gif)
 
 
