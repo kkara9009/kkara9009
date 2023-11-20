@@ -1,0 +1,72 @@
+/* ------------ Flesh background ------------ */
+/* Fallback for browsers without webp support */
+.no-webp .flesh-bg {
+  background: url(../../images/devHome/flesh.png) no-repeat top center/100%;
+}
+
+.webp .flesh-bg {
+  background: url(../../images/devHome/flesh.webp) no-repeat top center/100%;
+}
+
+/* Fade effect */
+.flesh-bg::after {
+  height: 50%;
+  background: linear-gradient(0deg, black 0%, transparent 100%);
+}
+
+/* Eyes */
+.eyes {
+  height: 4.5%;
+  width: 100%;
+
+  position: absolute;
+  top: 55%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eye {
+  margin: 1%;
+  width: 4.5%;
+  height: 100%;
+  border-radius: 20% 20% 20% 40%;
+
+  position: relative;
+  overflow: hidden;
+}
+
+/* Fallback for browsers without webp support */
+.no-webp .pupil {
+  background: url(../../images/devHome/pupil.png) no-repeat center center/cover;
+}
+
+.webp .pupil {
+  background: url(../../images/devHome/pupil.webp) no-repeat center center/cover;
+}
+
+.pupil {
+  width: 20%;
+  height: 30%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ------------ Bone background ------------ */
+img.bone-bg {
+  width: 100%;
+  height: auto;
+}
+
+/* Fallback for browsers without webp support */
+.no-webp img.bone-bg {
+  mask: url(../../images/devHome/xrayCursor.png) no-repeat top left/150px;
+}
+
+.webp img.bone-bg {
+  mask: url(../../images/devHome/xrayCursor.webp) no-repeat top left/150px;
+}
